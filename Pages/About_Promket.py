@@ -1,7 +1,7 @@
 import streamlit as st
 
 def show():
-    st.title("About PROMKET OIL AND GAS CONSULT NIGERIA LIMITED 👋")
+    st.title(" About PROMKET OIL AND GAS CONSULT NIGERIA LIMITED")
     st.markdown(
         """
         ### About Us

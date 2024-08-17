@@ -11,9 +11,9 @@ def show():
     )
 
     training_opportunities = [
-        "Basic crude oil and gas Production Operations",
-        "Basic crude oil and gas drilling Operations",
-        "Basic crude oil and gas reservoir Operations",
+        "Basic and advance crude oil and gas Production Operations",
+        "Basic and advance crude oil and gas drilling Operations",
+        "Basic and advance crude oil and gas reservoir Operations",
         "Oil field chemical applications",
         "Basic wellhead and production platform instrumentation",
         "Laboratory Safety & Safe Chemical Handling",

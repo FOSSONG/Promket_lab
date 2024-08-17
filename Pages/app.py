@@ -10,7 +10,7 @@ import Consulting
 # Set page configuration
 st.set_page_config(
     page_title="PROMKET OIL AND GAS CONSULT NIGERIA LIMITED",
-    page_icon="👋",
+    page_icon= "F:\\PROMKET_STREAMLIT_PROJECT\\LOGO.png",
     layout="wide",  # Wide layout for better content arrangement
 )
 
@@ -21,7 +21,8 @@ options = st.sidebar.radio("Go to", ["Home", "About Promket", "Laboratory Equipm
 # Display the selected page
 if options == "Home":
     st.title("Welcome to PROMKET OIL AND GAS CONSULT NIGERIA LIMITED 👋")
-    st.write("This is the home page.")
+    st.write("Enjoy the ride!!.")
+    st.image("F:\PROMKET_STREAMLIT_PROJECT\LOGO.png", caption="Promket consult Logo", use_column_width=False)
     st.markdown(
         """
         ### About Us
@@ -42,7 +43,7 @@ if options == "Home":
         ### Contact Information
         
         - **Email:** promketconsultltd@gmail.com
-        - **Tel:** 08039230721
+        - **Tel:** (+234)8027661375 / (+234)8039230721
         - **Address:** #72A Aliaparanwo Road, ObioAkpor L.G.A. Rivers State, Nigeria.
 
         ---
