@@ -6,7 +6,7 @@ def show():
     st.markdown("# PROMKET Petrochemical and Environmental Laboratory")
     st.sidebar.header("Available Equipment in the Laboratory")
     st.write(
-        """This section shows the various equipment available in PROMIKET Petrochemical and Environmental Laboratory. Select an equipment to view its details."""
+        """This section shows the various equipment available in PROMKET Petrochemical and Environmental Laboratory. Select an equipment to view its details."""
     )
 
     equipment_data = {

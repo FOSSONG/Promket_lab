@@ -20,11 +20,21 @@ options = st.sidebar.radio("Go to", ["Home", "About Promket", "Laboratory Equipm
 
 # Display the selected page
 if options == "Home":
-    st.title("Welcome to PROMKET OIL AND GAS CONSULT NIGERIA LIMITED 👋")
-    st.write("Enjoy the ride!!.")
-    st.image("https://raw.githubusercontent.com/FOSSONG/Promket_lab/main/LOGO.png", caption="Promket consult Logo", use_column_width=False)
-    st.markdown(
-        """
+    st.title("Welcome to PROMKET OIL AND GAS CONSULT NIGERIA LIMITED")
+    
+    col1, col2 = st.columns([1, 2])  # Adjust the proportions as needed
+
+    with col1:
+        st.image("https://raw.githubusercontent.com/FOSSONG/Promket_lab/main/LOGO.png", caption="Promket consult Logo", use_column_width=True)
+
+    with col2:
+        st.write("""
+        Welcome to PROMKET OIL AND GAS CONSULT NIGERIA LIMITED. 
+        We offer a wide range of services in the oil and gas industry, focusing on delivering top-notch 
+        consulting solutions. Enjoy the ride!!
+        """)
+
+        st.markdown("""
         ### About Us
 
         **PROMKET Oil and Gas Consult Nigeria Limited** is dedicated to providing top-notch consultancy services 
@@ -39,30 +49,30 @@ if options == "Home":
         We pride ourselves on delivering excellence and advancing local content in Nigeria.
 
         ---
-        
+
         ### Contact Information
-        
+
         - **Email:** promketconsultltd@gmail.com
         - **Tel:** (+234)8027661375 / (+234)8039230721
         - **Address:** #72A Aliaparanwo Road, ObioAkpor L.G.A. Rivers State, Nigeria.
 
         ---
-        
+
         ### Services Offered
-        
+
         - Laboratory services - Chemical and mud testing
         - Onshore environmental/waste management - Environmental assessment/studies (EIA, EER, EAR, PIA)
         - Training opportunities
-        
+
         ---
-        
+
         ### DPR Permits Obtained
-        
+
         1. Laboratory services - Chemical and mud testing
         2. Onshore environmental/waste management - Environmental assessment/studies (EIA, EER, EAR, PIA)
         3. Training
-        """
-    )
+        """)
+
 elif options == "About Promket":
     About_Promket.show()
 elif options == "Laboratory Equipment":
@@ -76,7 +86,7 @@ elif options == "Consulting":
 
 # Add a footer or closing remark
 st.markdown("---")
-st.markdown("Thank you for visiting us! For more information, please explore the options above.")
+st.markdown("Thank you for visiting us! For more information, please explore the home page options or email us: promketconsultltd@gmail.com.")
 
 # Optionally, you can add some CSS to style certain elements further
 st.markdown(

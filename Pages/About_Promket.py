@@ -22,7 +22,7 @@ def show():
         ### Contact Information
         
         - **Email:** promketconsultltd@gmail.com
-        - **Tel:** 08039230721
+        - **Tel:** (+234)8027661375 / (+234)8039230721
         - **Address:** #72A Aliaparanwo Road, ObioAkpor L.G.A. Rivers State, Nigeria.
 
         ---
