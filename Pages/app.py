@@ -22,7 +22,7 @@ options = st.sidebar.radio("Go to", ["Home", "About Promket", "Laboratory Equipm
 if options == "Home":
     st.title("Welcome to PROMKET OIL AND GAS CONSULT NIGERIA LIMITED 👋")
     st.write("Enjoy the ride!!.")
-    st.image("F:\PROMKET_STREAMLIT_PROJECT\LOGO.png", caption="Promket consult Logo", use_column_width=False)
+    st.image("https://raw.githubusercontent.com/FOSSONG/Promket_lab/main/LOGO.png", caption="Promket consult Logo", use_column_width=False)
     st.markdown(
         """
         ### About Us
