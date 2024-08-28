@@ -1,7 +1,13 @@
 import streamlit as st
 
+# Set page configuration
+st.set_page_config(
+    page_title="PROMKET Oil and Gas Consult",
+    layout="centered",
+)
+
 def show():
-    st.title(" About PROMKET OIL AND GAS CONSULT NIGERIA LIMITED")
+    st.title("About PROMKET OIL AND GAS CONSULT NIGERIA LIMITED")
     st.markdown(
         """
         ### About Us
@@ -43,18 +49,20 @@ def show():
         """
     )
 
+    st.write(
+        """This demo showcases a summary of the processes that takes place in the oil and gas industry.
+        # PROMKET OIL AND GAS CONSULT provides reliable services at every stage of the process.
+        """
+    )
 
-st.write(
-   """This demo showcases a summary of the processes that takes place in the oil and gas industry.
-#PROMKET OIL AND GAS CONSULT provides reliable services at every stage of the process.
-"""
-)
+    if st.button("click here"):
+        st.video("https://youtu.be/RtURL0FW3KI?list=PL0gBJKv_mskxAz1I9BTa40aaotBq_CdNs")
 
-#if st.button("Play Demo Video"):
-    #st.video("https://youtu.be/RtURL0FW3KI?list=PL0gBJKv_mskxAz1I9BTa40aaotBq_CdNs")
+    # DPR Permits Obtained section
+    st.markdown("<div class='dpr-header'>DPR Permits Obtained</div>", unsafe_allow_html=True)
+    st.markdown("1. Laboratory services - Chemical and mud testing")
+    st.markdown("2. Onshore environmental/waste management - Environmental assessment/studies (EIA, EER, EAR, PIA)")
+    st.markdown("3. Training")
 
-# DPR Permits Obtained section
-st.markdown("<div class='dpr-header'>DPR Permits Obtained</div>", unsafe_allow_html=True)
-st.markdown("1. Laboratory services - Chemical and mud testing")
-st.markdown("2. Onshore environmental/waste management - Environmental assessment/studies (EIA, EER, EAR, PIA)")
-st.markdown("3. Training")
+# Call the show function to render the content
+show()
