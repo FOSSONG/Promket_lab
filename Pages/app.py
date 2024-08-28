@@ -10,7 +10,7 @@ import Consulting
 # Set page configuration
 st.set_page_config(
     page_title="PROMKET OIL AND GAS CONSULT NIGERIA LIMITED",
-    page_icon= "F:\\PROMKET_STREAMLIT_PROJECT\\LOGO.png",
+    page_icon= "https://i.imgur.com/WoYx3Uk.png",
     layout="wide",  # Wide layout for better content arrangement
 )
 
@@ -25,7 +25,7 @@ if options == "Home":
     col1, col2 = st.columns([1, 2])  # Adjust the proportions as needed
 
     with col1:
-        st.image("https://raw.githubusercontent.com/FOSSONG/Promket_lab/main/LOGO.png", caption="Promket consult Logo", use_column_width=True)
+        st.image("https://i.imgur.com/WoYx3Uk.png", caption="Promket consult Logo", use_column_width=True)
 
     with col2:
         st.write("""

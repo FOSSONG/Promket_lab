@@ -45,13 +45,13 @@ def show():
 
 
 st.write(
-    """This demo showcases a summary of the processes that takes place in the oil and gas industry.
-PROMKET OIL AND GAS CONSULT provides reliable services at every stage of the process.
+   """This demo showcases a summary of the processes that takes place in the oil and gas industry.
+#PROMKET OIL AND GAS CONSULT provides reliable services at every stage of the process.
 """
 )
 
-if st.button("Play Demo Video"):
-    st.video("https://youtu.be/RtURL0FW3KI?list=PL0gBJKv_mskxAz1I9BTa40aaotBq_CdNs")
+#if st.button("Play Demo Video"):
+    #st.video("https://youtu.be/RtURL0FW3KI?list=PL0gBJKv_mskxAz1I9BTa40aaotBq_CdNs")
 
 # DPR Permits Obtained section
 st.markdown("<div class='dpr-header'>DPR Permits Obtained</div>", unsafe_allow_html=True)
